@@ -1,0 +1,163 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+}
+body {
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+	color: #2C3543;
+}
+a {
+	text-decoration: none;
+	color: #2C3543;
+}
+a:hover {
+	text-decoration: none;
+}
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+/**
+h3 {
+	font-size: 24px;
+	font-weight: 200;
+	margin-bottom: 16px;
+}
+.container {
+	width: 100%;
+	max-width: 1290px;
+	margin: 0 auto;
+	padding: 0 24px;
+}
+.ProductListContent {
+	margin: 60px 0;
+}
+.SlickList {
+	display: flex;
+	margin-left: -16px;
+	overflow-x: auto;
+}
+.ProductSummary {
+	flex: 0 0 auto;
+	width: 15%;
+	padding-left: 16px;
+}
+.ProductSummary img {
+	width: 100%;
+}
+.book-title {
+	color: #5F5F5F;
+	padding: 8px 0;
+	width: 90%;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.2;
+}
+.category {
+	color: #C6C8CB;
+	width: 90%;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+/**
+
+
+
+
+
+.mid-header .container {
+	border-bottom: 1px solid #E2E7EA;
+}
+.mid-header ul {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 24px 0;
+}
+.mid-header ul li {
+	font-weight: 300;
+	padding: 0 16px;
+}
+.breadcrumb {
+	padding: 16px 0;
+}
+.breadcrumb li {
+	display: inline-block;
+	font-weight: 300;
+}
+.breadcrumb li a {
+	color: #297CBB;
+}
+.breadcrumb li:after {
+	content: '>';
+	padding: 0 0.5em;
+	color: #8D9197;
+}
+.breadcrumb li:last-child:after {
+	content: '';
+}
+.ContentBlockHero {
+	margin-top: 24px;
+}
+h2 {
+	font-size: 44px;
+	font-weight: 200;
+}
+.ContentBlock {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.ContentBlock .content-flex {
+	width: 50%;
+}
+.ContentBlock-left img {
+	width: 100%;
+}
+.ContentBlock-right {
+	text-align: center;
+	line-height: 1;
+}
+.ContentBlock-right h3 {
+	font-size: 48px;
+	font-weight: 200;
+	color: #DC221A;
+}
+.ContentBlock-right p {
+	color: #8D9197;
+	font-size: 24px;
+	padding: 8px 0 16px 0;
+	font-weight: 200;
+}
+.ContentBlock-right .btn {
+	font-size: 14px;
+	background: #297CBB;
+	display: inline-block;
+	padding: 12px 24px;
+	border-radius: 24px;
+	color: #fff;
+	font-weight: 300;
+}
+
+@media (max-width: 1000px) {
+	.header-left {
+		background: #000;
+		display: none;
+	}
+	.header-logo {
+		width: 20%;
+	}
+	.header-right {
+		width: 80%;
+	}
+}
+
