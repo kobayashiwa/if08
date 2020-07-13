@@ -29,11 +29,7 @@ ul, li {
 
 
 
-.SlickList {
-	display: flex;
-	margin-left: -16px;
-	overflow-x: auto;
-}
+
 .ProductSummary {
 	flex: 0 0 auto;
 	width: 15%;
