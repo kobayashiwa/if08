@@ -6,7 +6,7 @@
 }
 body {
 	margin: 0;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	color: #2C3543;
 }
 a {
@@ -38,6 +38,18 @@ ul, li {
 .ContentBlock .content-flex {
 	width: 50%;
 }
+.ContentBlock .content-flex img {
+	width: 100%;
+}
+.ContentBlock-right {
+	text-align: center;
+	line-height: 1;
+}
+.ContentBlock-right h3 {
+	font-size: 48px;
+	font-weight: 100;
+	color: #DC221A;
+}
 
 
 
@@ -49,10 +61,6 @@ ul, li {
 
 
 
-
-.mid-header .container {
-	border-bottom: 1px solid #E2E7EA;
-}
 .mid-header ul {
 	display: flex;
 	justify-content: center;
