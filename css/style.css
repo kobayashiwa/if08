@@ -27,21 +27,22 @@ ul, li {
 	margin: 0 auto;
 	padding: 0 24px;
 }
-
-
-
-
-/**
-
-
-
-
-.category {
-	color: #C6C8CB;
-	width: 90%;
-	font-size: 12px;
-	font-weight: 300;
+.ContentBlockHero {
+	margin: 0 60px;
 }
+.ContentBlock {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.ContentBlock .content-flex {
+	width: 50%;
+}
+
+
+
+
+
 
 /**
 
